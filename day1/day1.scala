@@ -1,13 +1,15 @@
+package day1
+
 import scala.io.Source
 
 object Day1 {
 
   def main: Unit = {
-    val testP1 = Day1.passwordOne("day1.sample")
-    val testP2 = Day1.passwordTwo("day1.sample")
+    val testP1 = Day1.passwordOne("data/day1.sample")
+    val testP2 = Day1.passwordTwo("data/day1.sample")
     println(s"Sample file: $testP1 / $testP2")
-    val p1 = Day1.passwordOne("day1.input")
-    val p2 = Day1.passwordTwo("day1.input")
+    val p1 = Day1.passwordOne("data/day1.input")
+    val p2 = Day1.passwordTwo("data/day1.input")
     println(s"Input file: $p1 / $p2")
   }
 
