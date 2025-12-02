@@ -1,4 +1,3 @@
-//> using test.dep org.scalatest::scalatest::3.2.19
 package day1
 
 import org.scalatest.flatspec.AnyFlatSpec

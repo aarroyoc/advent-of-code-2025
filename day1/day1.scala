@@ -5,6 +5,7 @@ import scala.io.Source
 object Day1 {
 
   def main: Unit = {
+    println("Day 1")
     val testP1 = Day1.passwordOne("data/day1.sample")
     val testP2 = Day1.passwordTwo("data/day1.sample")
     println(s"Sample file: $testP1 / $testP2")
