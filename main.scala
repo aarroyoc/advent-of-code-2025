@@ -5,6 +5,7 @@ import day3.Day3
 import day4.Day4
 import day5.Day5
 import day6.Day6
+import day7.Day7
 
 @main
 def main: Unit = {
@@ -15,4 +16,5 @@ def main: Unit = {
   Day4.main
   Day5.main
   Day6.main
+  Day7.main
 }
